@@ -2,13 +2,13 @@
 
 > Binary search on steroids for Game Maker Studio 2.3
 
-Binder is a binary search library for those who need quick, efficient lookups on large datasets in games where lookup performance matters and linear searches or simple hashmaps just won’t cut it.
+Binder is a binary search library for those who need quick, efficient lookups on large datasets in games where lookup performance matters, and linear searches or simple hashmaps just won’t cut it.
 
 
 ## Features
 
-- **Indexing** – Generate multiple sorted indexes of your data without duplicating it.
-- **Range lookups** – Quickly retrieve ranges of matching values, not just individual hits.
+- **Indexing** – Generate multiple ordered indexes of your data without duplicating or modifying it.
+- **Multiple results** – Quickly retrieve all matching values from a single search, not just individual hits.
 - **Mergeable results** – Easily combine the results of multiple lookups using union and intersection.
 - **Automatic sorting** – Binder handles sorting internally so you can focus on searching, not maintaining order.
 - **Performant** – Binary search scales with your data, providing fast lookups on any size.
