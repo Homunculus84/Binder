@@ -4,7 +4,6 @@
 
 Binder is a binary search library for those who need quick, efficient lookups on large datasets in games where lookup performance matters and linear searches or simple hashmaps just won’t cut it.
 
----
 
 ## Features
 
@@ -15,7 +14,6 @@ Binder is a binary search library for those who need quick, efficient lookups on
 - **Performant** – Binary search scales with your data, providing fast lookups on any size.
 - **Non-intrusive** – Doesn't alter your original dataset.
 
----
 
 ## Who is this for?
 
@@ -30,6 +28,7 @@ It may not be for you if:
 - Your data is dynamic and changes frequently
 - You need to perform lookups based on a single field (consider a struct)
 - Your lookup relies on a condition that can not be solved by a binary search, like full text search
+
 
 ## How to use
 
