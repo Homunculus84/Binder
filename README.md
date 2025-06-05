@@ -17,17 +17,17 @@ Binder is a binary search library for those who need quick, efficient lookups on
 
 ## Who is this for?
 
-Binder is for GameMaker devs who:
+Binder is ideal for:
 
-- You are dealing with large datasets that need to be searched through quickly.
-- You need to perform many repeated searches over the same dataset.
-- You need to search the same data by multiple fields
+- Dealing with large datasets that need to be searched through quickly.
+- Performing many repeated searches over the same, static, dataset.
+- Searching through the same data in multiple ways.
 
 It may not be for you if:
 
-- Your data is dynamic and changes frequently
-- You need to perform lookups based on a single field (consider a struct)
-- Your lookup relies on a condition that can not be solved by a binary search, like full text search
+- Your data is dynamic / changes frequently.
+- You need to perform lookups based on just single field (consider a struct).
+- Your lookup relies on a condition that can not be solved by a binary search, like full text search.
 
 
 ## How to use
