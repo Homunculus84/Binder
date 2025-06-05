@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"binder_helpers",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"binder_helpers",
+  "parent":{
+    "name":"Binder",
+    "path":"folders/Scripts/Binder.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

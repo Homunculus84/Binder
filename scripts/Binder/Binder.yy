@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Binder",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Binder",
+  "parent":{
+    "name":"Binder",
+    "path":"folders/Scripts/Binder.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
