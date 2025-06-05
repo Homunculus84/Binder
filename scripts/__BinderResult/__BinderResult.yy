@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"__BinderIndexedResult",
+  "%Name":"__BinderResult",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"__BinderIndexedResult",
+  "name":"__BinderResult",
   "parent":{
     "name":"private",
     "path":"folders/Scripts/Binder/private.yy",

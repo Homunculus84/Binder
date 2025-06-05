@@ -144,8 +144,7 @@ function Binder(_data, _map_fn, _build_index = false) constructor {
 			_value = map_fn(_value);
 		}
 	
-		var _raw_output = __binder_binary_search(self, _value, _eval_fn, true);	
-		return new __BinderRawResult(self, _raw_output); 
+		return __binder_binary_search(self, _value, _eval_fn, true);	 
 	}
 
 	static to_json = function(_pretty = false) {

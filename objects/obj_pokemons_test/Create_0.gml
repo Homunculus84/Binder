@@ -2,6 +2,7 @@ textfield_name = textfield_pokemons_name;
 textfield_type = textfield_pokemons_type;
 
 limit = 7;
+offset = 0;
 
 pokemons = {
 	count:		0,

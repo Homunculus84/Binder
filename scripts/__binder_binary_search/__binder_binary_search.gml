@@ -19,7 +19,7 @@ function __binder_binary_search(_binder, _value, _eval_fn = binder_pass_through,
 				_lft = __binder_expand_left(_binder, _value, _eval_fn, _lft, _mid);
 				_rgt = __binder_expand_right(_binder, _value, _eval_fn, _mid, _rgt);
 
-			    return { start: _lft, count: _rgt - _lft + 1};
+				return new __BinderResult(_binder, _lft, _rgt - _lft + 1);
 			}
 			else {
 				return _binder.get_val_raw(_mid);
@@ -37,7 +37,7 @@ function __binder_binary_search(_binder, _value, _eval_fn = binder_pass_through,
 	}
 
 	if(_multiple) {
-		return { start: -1, count: 0 };
+		return new __BinderResult(_binder, -1, 0);;
 	}
 	else {
 		return undefined;

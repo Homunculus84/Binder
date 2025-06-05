@@ -1,6 +1,7 @@
 textfield = textfield_words;
 
 limit = 6;
+offset = 0;
 
 prefixes = {
 	count:		0,

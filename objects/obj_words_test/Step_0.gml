@@ -19,7 +19,7 @@ _result = words_alpha.search(_value, false,
 	}
 ));
 
-prefixes.entries = _result.fetch_values(limit);
+prefixes.entries = _result.fetch_values(limit, offset);
 prefixes.count = _result.count;
 prefixes.time = (get_timer() - _t) / 1000;
 
@@ -27,12 +27,6 @@ prefixes.time = (get_timer() - _t) / 1000;
 _t = get_timer();
 _result = words_anagrams.search(_value, true);
 
-anagrams.entries = _result.fetch_values(limit);
+anagrams.entries = _result.fetch_values(limit, offset);
 anagrams.count = _result.count;
 anagrams.time = (get_timer() - _t) / 1000;
-
-var _single = words_alpha.find(_value);
-
-if(!is_undefined(_single)) {
-	show_debug_message($"Found a perfect match! {_single}");
-}

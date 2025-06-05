@@ -46,7 +46,7 @@ function binder_results_intersection(_result) {
 		var _indexes = array_intersection(_indexes, _other_indexes);
     }
 
-	var _new_result = new __BinderIndexedResult(_result.binder, _indexes);
+	var _new_result = new __BinderResult(_result.binder, 0, array_length(_indexes), _indexes);
 
     return _new_result;
 }
@@ -62,7 +62,7 @@ function binder_results_union(_result) {
 		var _indexes = array_union(_indexes, _other_indexes);
     }
 
-	var _new_result = new __BinderIndexedResult(_result.binder, _indexes);
+	var _new_result = new __BinderResult(_result.binder, 0, array_length(_indexes), _indexes);
 
     return _new_result;
 }
