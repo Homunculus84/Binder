@@ -7,7 +7,7 @@ Binder is a binary search library for those who need quick, efficient lookups on
 
 ## Features
 
-- **Indexing** – Generate multiple sorted indexes of your data duplicating it.
+- **Indexing** – Generate multiple sorted indexes of your data without duplicating it.
 - **Range lookups** – Quickly retrieve ranges of matching values, not just individual hits.
 - **Mergeable results** – Easily combine the results of multiple lookups using union and intersection.
 - **Automatic sorting** – Binder handles sorting internally so you can focus on searching, not maintaining order.
