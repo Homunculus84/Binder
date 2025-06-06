@@ -29,6 +29,7 @@ It may not be for you if:
 - You need to perform lookups based on a single criteria (consider a struct in this case).
 - Your lookup relies on a condition that can not be solved by a binary search, like full text search.
 
+If you are just looking for a general purpose binary search script, [here you can find](https://github.com/Homunculus84/Binder/blob/main/scripts/binary_search/binary_search.gml) a generalized version of the one used in this library.
 
 ## How to use
 
