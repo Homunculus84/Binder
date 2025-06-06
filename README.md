@@ -26,7 +26,7 @@ Binder is ideal for:
 It may not be for you if:
 
 - Your data is dynamic / changes frequently.
-- You need to perform lookups based on just single field (consider a struct).
+- You need to perform lookups based on a single criteria (consider a struct in this case).
 - Your lookup relies on a condition that can not be solved by a binary search, like full text search.
 
 
