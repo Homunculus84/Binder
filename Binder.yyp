@@ -39,6 +39,7 @@
     {"id":{"name":"__binder_binary_search","path":"scripts/__binder_binary_search/__binder_binary_search.yy",},},
     {"id":{"name":"__binder_system","path":"scripts/__binder_system/__binder_system.yy",},},
     {"id":{"name":"__BinderResult","path":"scripts/__BinderResult/__BinderResult.yy",},},
+    {"id":{"name":"binary_search","path":"scripts/binary_search/binary_search.yy",},},
     {"id":{"name":"binder_config","path":"scripts/binder_config/binder_config.yy",},},
     {"id":{"name":"binder_helpers","path":"scripts/binder_helpers/binder_helpers.yy",},},
     {"id":{"name":"Binder","path":"scripts/Binder/Binder.yy",},},
