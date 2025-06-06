@@ -10,7 +10,6 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -32,7 +31,6 @@
   },
   "name":"Binder",
   "resources":[
-    {"id":{"name":"Todo","path":"notes/Todo/Todo.yy",},},
     {"id":{"name":"obj_pokemons_test","path":"objects/obj_pokemons_test/obj_pokemons_test.yy",},},
     {"id":{"name":"obj_textfield","path":"objects/obj_textfield/obj_textfield.yy",},},
     {"id":{"name":"obj_words_test","path":"objects/obj_words_test/obj_words_test.yy",},},
