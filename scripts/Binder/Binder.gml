@@ -24,7 +24,7 @@
 ///	get_val(i)				Returns the (mapped) value from the source data indexed at position i
 /// get_val_raw(i)			Returns the value from the source data indexed at position i
 /// is_built()				Returns whether the index has been built or not
-/// load(filename)			Synchronously load the binde from file
+/// load(filename)			Synchronously load the binder from file
 /// save(filename)			Synchronously saves the binder to file
 /// search(value, [map_value], [eval_fn])
 ///							Binary search for multiple values
