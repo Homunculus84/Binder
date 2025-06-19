@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__BinderSystem",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__BinderSystem",
+  "parent":{
+    "name":"private",
+    "path":"folders/Scripts/Binder/private.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,7 +1,8 @@
-#macro	BINDER_VERSION		"1.0.0"
+#macro	BINDER_VERSION			"1.2.0"
 
-__binder_system();
-function __binder_system() {
+__BinderSystem();
+
+function __BinderSystem() {
 	static _system = undefined;
 	if(!is_undefined(_system)) { return _system; }
 	
@@ -21,4 +22,14 @@ function __binder_error(_error){
 
 function __binder_trace(_message){
 	show_debug_message($"[Binder] {_message}");
+}
+
+function __binder_version_parse(_version = BINDER_VERSION) {
+	var _parts = string_split(_version, ".");
+	
+	return { 
+		major: real(_parts[0]), 
+		minor: real(_parts[1]), 
+		patch: real(_parts[2]) 
+	};
 }

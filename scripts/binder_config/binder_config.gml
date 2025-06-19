@@ -1,1 +1,1 @@
-#macro	BINDER_SHOW_WARN	true			// Whether to show debug messages and warnings in the console
+#macro	BINDER_SHOW_WARN	true

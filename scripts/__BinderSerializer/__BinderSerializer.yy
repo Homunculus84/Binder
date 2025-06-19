@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"__binder_system",
+  "%Name":"__BinderSerializer",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"__binder_system",
+  "name":"__BinderSerializer",
   "parent":{
     "name":"private",
     "path":"folders/Scripts/Binder/private.yy",

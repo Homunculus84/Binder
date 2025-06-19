@@ -15,11 +15,11 @@ var _buffer = buffer_load("pokedex.json");
 pokedex = json_parse(buffer_read(_buffer, buffer_text));
 buffer_delete(_buffer);
 
-// Create a binder by pokemon name (english), and generate the index
+// Create a binder by pokemon name, and generate the index
 pokedex_name = new Binder(pokedex, function(_p) { return string_lower(_p.name); }, true);
 
-// Create a binder by pokemon name (japanese), and generate the index
+// Create a binder by pokemon type (primary), and generate the index
 pokedex_type_one = new Binder(pokedex, function(_p) { return string_lower(_p.type[0]); }, true);
 
-// Create a binder by pokemon name (japanese), and generate the index
+// Create a binder by pokemon type (secondary), and generate the index
 pokedex_type_two = new Binder(pokedex, function(_p) { return string_lower(_p.type[1]); }, true);
